@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+
+
+/* --- My styles---*/
+
+.body {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/* HEADER*/
+
+.header{
+  background: #ececec;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1{
+font-size: 40px;
+font-weight: 700;
+text-transform: uppercase;
+margin-bottom: 20px;
+margin: 0 20px;
+padding: 20px;
+}
+
+.header a{
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+.table-data {
+  width: 100%;
+  margin: 40px 0 0;
+  border-style: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px #e4e4ef;
+  
+}
+
+
+.table-data,
+.table-data td,
+.table-data th{
+    border-top: 2px solid ;
+    vertical-align: baseline;
+    border: 1px solid #e4e4ef;
+    border-collapse: collapse;
+}
+
+
+.table-data th {
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 18px 16px;
+    width: 400px;
+}
+
+.table-data th + th + th {
+  width: 160px;
+}
+
+.table-data th + th + th {
+  width: auto;
+}
+
+.table-data td{
+    padding: 8px 16px;
+    vertical-align: middle;
+}
+
+.table-data td p + p {
+font-size: 12px;
+line-height: 20px;
+color: #505050;
+}
+
+.last-item {
+text-align: center;
+width: 150px;
+}
+
+.page{
+  background: lightyellow;
+  font-family: monospace;
+}
+
+.btn-blue {
+  color: #605dec;
+  background: #ededfe ;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 24px;
+}
+.btn-green{
+  color: green;
+  background: #ebf6eb;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 24px;
+}
+.btn-orange{
+  color: orange;
+  background: #fff4e4;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 24px;
+}
+.btn-red{
+  color: red;
+  background: #fff0f0;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 24px;
+}
+.btn-grey{
+  color: lightgrey;
+  background: #f8f9fb;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 24px;
+}
+
+.tcell{
+  text-align: center;
+}
+
